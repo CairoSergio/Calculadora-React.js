@@ -71,3 +71,6 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 # Calculadora-React.js
 
 [http://localhost:3000/project-image.png]
+<p>
+  <img src="http://localhost:3000/project-image.png"/>
+<p/>
