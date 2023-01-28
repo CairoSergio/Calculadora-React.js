@@ -72,5 +72,5 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 
 [http://localhost:3000/project-image.png]
 <p>
-  <img src="public/project-image.png"/>
+  <img src="https://github.com/CairoSergio/Calculadora-React.js/blob/main/public/project-image.PNG"/>
 <p/>
