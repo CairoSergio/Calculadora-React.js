@@ -1,13 +1,105 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+*{
+    padding: 0;
+    margin: 0;
+    height: 100%;
+    width: 100%;
+}
+body{
+    background-color: rgb(226, 226, 226);
+    overflow: hidden;
+}
+#root{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+
+.teclados{
+    background-color: #fff;
+    height: 450px;
+    width: 90%;
+}
+
+.TecCima{
+    height: 70px;
+    width: 70px;
+    font-size: 23px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #ccc;
+    color: #000;
+    font-family: sans-serif;
+    cursor: pointer;
+    border: none;
+}
+.TecCima:active,
+#amarela:active{
+    font-size: 18px;
+}
+.division{
+    display: flex;
+    flex-wrap: wrap;
+    height: 66%;
+    justify-content: space-evenly;
+
+}
+
+#amarela{
+    background-color: rgb(255, 140, 0);
+    color: #fff;
+    font-size: 30px;
+}
+#zero{
+    width: 150px;
+    border-radius: 30px;
+    background-color: rgb(69, 69, 69);
+    color: white;
+    justify-content: flex-start;
+    padding-left: 25px;
+}
+#numero{
+    background-color: rgb(69, 69, 69);
+    color: #fff;
+}
+
+.container{
+    font-size: 13px;
+    height: 600px;
+    width: 330px;
+    background-color: #000;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.Resultados{
+    height: 200px;
+    width: 90%;
+    font-size: 50px;
+    color: #fff;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    padding-bottom: 10px;
+    cursor: pointer;
+    font-family: sans-serif;
+}
+
+.nivel1{
+    font-size: 40px;
+}
+.nivel2{
+    font-size: 35px;
+}
+.nivel3{
+    font-size: 30px;
+}
+.nivel4{
+    font-size: 25px;
 }
