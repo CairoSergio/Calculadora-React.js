@@ -70,7 +70,6 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
 # Calculadora-React.js
 
-[http://localhost:3000/project-image.png]
 <p>
   <img src="https://github.com/CairoSergio/Calculadora-React.js/blob/main/public/project-image.PNG"/>
 <p/>
